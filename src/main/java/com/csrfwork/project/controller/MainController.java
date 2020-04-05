@@ -10,7 +10,7 @@ public class MainController {
 //	@Autowired
 //	private QuestionServices questionService; 
 //	
-	@PostMapping("/account")
+	@PostMapping("/")
 	public String saveInformation(){
 	
 		return "login";
