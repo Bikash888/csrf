@@ -3,8 +3,9 @@ package com.csrfwork.project.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class MainController {
 
 //	@Autowired
@@ -13,7 +14,13 @@ public class MainController {
 	@PostMapping("/account")
 	public String saveInformation(){
 	
-		return "login";
+		return "success";
+		
+	}
+	@PostMapping("/tst")
+	public String normation(){
+	
+		return "success";
 		
 	}
 	@GetMapping("/")
