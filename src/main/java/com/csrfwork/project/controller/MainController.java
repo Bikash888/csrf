@@ -19,6 +19,6 @@ public class MainController {
 	@GetMapping("/")
 	public String sInformation(){
 		return "login";
-		
 	}
+	
 }
