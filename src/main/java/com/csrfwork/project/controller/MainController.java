@@ -10,13 +10,13 @@ public class MainController {
 //	@Autowired
 //	private QuestionServices questionService; 
 //	
-	@PostMapping("/")
+	@PostMapping("/account")
 	public String saveInformation(){
 	
 		return "login";
 		
 	}
-	@GetMapping("/account")
+	@GetMapping("/")
 	public String sInformation(){
 		return "login";
 		
